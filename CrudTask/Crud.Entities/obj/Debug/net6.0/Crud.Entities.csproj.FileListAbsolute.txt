@@ -1,7 +1,0 @@
-/Users/sefa.yilmaz/Desktop/CRUD/CRUD-.Net-Core/CrudTask/Crud.Entities/obj/Debug/net6.0/Crud.Entities.GlobalUsings.g.cs
-/Users/sefa.yilmaz/Desktop/CRUD/CRUD-.Net-Core/CrudTask/Crud.Entities/obj/Debug/net6.0/Crud.Entities.csproj.AssemblyReference.cache
-/Users/sefa.yilmaz/Desktop/CRUD/CRUD-.Net-Core/CrudTask/Crud.Entities/obj/Debug/net6.0/Crud.Entities.GeneratedMSBuildEditorConfig.editorconfig
-/Users/sefa.yilmaz/Desktop/CRUD/CRUD-.Net-Core/CrudTask/Crud.Entities/obj/Debug/net6.0/Crud.Entities.AssemblyInfoInputs.cache
-/Users/sefa.yilmaz/Desktop/CRUD/CRUD-.Net-Core/CrudTask/Crud.Entities/obj/Debug/net6.0/Crud.Entities.AssemblyInfo.cs
-/Users/sefa.yilmaz/Desktop/CRUD/CRUD-.Net-Core/CrudTask/Crud.Entities/obj/Debug/net6.0/Crud.Entities.csproj.CoreCompileInputs.cache
-/Users/sefa.yilmaz/Desktop/CRUD/CRUD-.Net-Core/CrudTask/Crud.Entities/obj/Debug/net6.0/Crud.Entities.MvcApplicationPartsAssemblyInfo.cache
