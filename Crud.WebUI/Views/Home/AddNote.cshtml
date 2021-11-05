@@ -7,7 +7,9 @@
     <form asp-controller="Home" asp-action="CreateNote" method="post">
         <div class="form-group row">
             <div class="col-md-10">
-                <input name="Note" class="form-control" />
+
+                <input name="Note" required=true class="form-control" />
+                @Html.ValidationMessageFor(x => x.Note, "This field cannot be empty", new { @style = "color:red" })
             </div>
         </div>
 

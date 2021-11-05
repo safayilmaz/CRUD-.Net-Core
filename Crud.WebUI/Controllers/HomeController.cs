@@ -34,6 +34,7 @@ namespace Crud.WebUI.Controllers
         [HttpPost]
         public IActionResult AddNote(NoteModel n)
         {
+
             var entity = new Notes()
             {
                 Note = n.Note,

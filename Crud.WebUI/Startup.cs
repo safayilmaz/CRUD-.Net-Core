@@ -27,7 +27,7 @@ namespace Crud.WebUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped <INoteService, NoteManager>();
-            services.AddScoped<INoteDal, NoteRepository>();
+            services.AddScoped<INoteDal, EfNoteRepository>();
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }
 

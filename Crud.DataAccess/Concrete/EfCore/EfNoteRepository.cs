@@ -6,7 +6,7 @@ using Crud.Entities;
 
 namespace Crud.DataAccess.Concrete.Ef
 {
-    public class NoteRepository : INoteDal
+    public class EfNoteRepository : INoteDal
     {
         
         public void Add(Notes entity)
