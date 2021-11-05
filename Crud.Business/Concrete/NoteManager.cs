@@ -26,6 +26,11 @@ namespace Crud.Business.Concrete
             _noteDal.Delete(t);
         }
 
+        public void DeleteAll()
+        {
+            _noteDal.DeleteAll();
+        }
+
         public List<Notes> getAll()
         {
             return _noteDal.getAll();

@@ -97,5 +97,13 @@ namespace Crud.WebUI.Controllers
             return RedirectToAction("Index");
         }
 
+
+        public IActionResult DeleteAll()
+        {
+            
+            _noteService.DeleteAll();
+            return RedirectToAction("Index");
+        }
+
     }
 }

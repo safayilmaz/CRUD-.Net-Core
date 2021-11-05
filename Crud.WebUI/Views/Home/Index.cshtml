@@ -18,21 +18,33 @@
         <tbody>
             @foreach (var item in Model.Notes)
             {
-                <tr>
+            <tr>
 
-                    <td>@item.ID</td>
-                    <td>@item.Note</td>
-                    <td>@item.EnrollDate</td>
-                    <td>@Html.ActionLink("Edit", "GetNote", new { id = item.ID }, new { @class = "btn btn-primary", onclick = "return confirm('Do you want to change it?')" })</td>
-                    <td>@Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger", onclick = "return confirm('Do you want to delete it?')" })</td>
-                </tr>
+                <td>@item.ID</td>
+                <td>@item.Note</td>
+                <td>@item.EnrollDate</td>
+                <td>@Html.ActionLink("Edit", "GetNote", new { id = item.ID }, new { @class = "btn btn-primary", onclick = "return confirm('Do you want to change it?')" })</td>
+                <td>@Html.ActionLink("Delete", "Delete", new { id = item.ID }, new { @class = "btn btn-danger", onclick = "return confirm('Do you want to delete it?')" })</td>
+
+            </tr>
             }
+
         </tbody>
     </table>
 
     <div class="alert alert-success" role="alert">
         Do you want to add a new one?
         <a class="link-success" href="/Home/AddNote" role="button">Add</a>
+
+        @{
+            if (Model.Notes.Count > 0)
+            {
+                @Html.ActionLink("Delete All", "DeleteAll", new { @class = "btn btn-danger", onclick = "return confirm('Do you want to delete all of them?')" })
+            }
+
+        }
+
+
     </div>
 </div>
 

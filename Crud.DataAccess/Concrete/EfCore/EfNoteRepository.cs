@@ -27,6 +27,19 @@ namespace Crud.DataAccess.Concrete.Ef
             }
         }
 
+        public void DeleteAll( )
+        {
+            using (Context context = new Context())
+            {
+                foreach(var item in context.Notes)
+                {
+                     context.Notes.Remove(item);
+                     
+                }
+                context.SaveChanges();
+            }
+         }
+
         public List<Notes> getAll()
         {
             using (Context context = new Context())

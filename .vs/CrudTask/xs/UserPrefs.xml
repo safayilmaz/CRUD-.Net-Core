@@ -1,21 +1,27 @@
 ﻿<Properties StartupConfiguration="{29DD2DA2-6FBB-4B24-95A1-7AB4EBB384A2}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Crud.DataAccess/Concrete/EfCore/EfNoteRepository.cs">
+    <Files>
+      <File FileName="Crud.WebUI/Views/Home/AddNote.cshtml" Line="1" Column="1" />
+      <File FileName="Crud.WebUI/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="Crud.DataAccess/Abstract/IGenericDal.cs" Line="14" Column="26" />
+      <File FileName="Crud.DataAccess/Abstract/INoteDal.cs" Line="1" Column="1" />
+      <File FileName="Crud.DataAccess/Concrete/EfCore/EfNoteRepository.cs" Line="17" Column="39" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CrudTask" expanded="True">
-            <Node name="Crud.Business" expanded="True">
-              <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True" />
-            </Node>
             <Node name="Crud.DataAccess" expanded="True">
-              <Node name="Abstract" expanded="True">
-                <Node name="IGenericDal.cs" selected="True" />
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="EfCore" expanded="True">
+                  <Node name="EfNoteRepository.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
-            <Node name="Crud.Entities" expanded="True" />
             <Node name="Crud.WebUI" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
               </Node>

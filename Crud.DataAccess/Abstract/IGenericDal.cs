@@ -11,6 +11,7 @@ namespace Crud.DataAccess.Abstract
         void Delete(T t);
         void Update(T t);
         T GetById(int id);
+        void DeleteAll();
         List<T> getAll();
     }
 }

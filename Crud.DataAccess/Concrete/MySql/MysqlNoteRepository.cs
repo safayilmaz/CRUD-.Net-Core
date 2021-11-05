@@ -17,6 +17,11 @@ namespace Crud.DataAccess.Concrete.MySql
             throw new NotImplementedException();
         }
 
+        public void DeleteAll()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Notes> getAll()
         {
             throw new NotImplementedException();
