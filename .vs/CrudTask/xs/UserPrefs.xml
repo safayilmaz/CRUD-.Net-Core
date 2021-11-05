@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{29DD2DA2-6FBB-4B24-95A1-7AB4EBB384A2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Crud.WebUI/Views/Home/AddNote.cshtml">
+    <Files>
+      <File FileName="Crud.WebUI/Views/Home/Index.cshtml" Line="17" Column="17" />
+      <File FileName="Crud.WebUI/Views/Shared/_Layout.cshtml" />
+      <File FileName="Crud.WebUI/Views/Home/AddNote.cshtml" Line="23" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CrudTask" expanded="True">
+            <Node name="Crud.Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True" />
+            </Node>
+            <Node name="Crud.DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
+              <Node name="Concrete" expanded="True">
+                <Node name="EfCore" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Crud.WebUI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="AddNote.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Crud.WebUI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
